@@ -1,0 +1,72 @@
+h1 {
+    color: #a55652;
+}
+
+.about {
+
+    display: flex;
+    justify-content: center; 
+    
+}
+
+a:link {
+
+    color:rgb(74, 255, 2);
+}
+
+a:visited{
+
+    color:rgb(28, 110, 18);
+}
+
+.about a{
+
+    margin: 25px;
+    
+}
+.parent{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.child{
+
+    position:relative;
+
+}
+
+.child p{
+    position:absolute;
+    font-size: 20px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+
+}
+
+.child:hover p{
+    opacity:1
+}
+
+.child:hover img{
+    transform: scale(1.5);
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.par{
+    text-align: center;
+}
+
+body{
+  background-color:#00BFFF;
+}
+
+
